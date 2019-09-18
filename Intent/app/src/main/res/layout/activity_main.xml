@@ -11,9 +11,11 @@
 
         <Button
             android:id="@+id/button_explicit"
-            android:text="@string/explicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleExplicitIntent"
+            android:text="@string/explicit_intent"
+
             />
 
         <Button
@@ -21,6 +23,7 @@
             android:text="@string/implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleImplicitIntent"
             />
 
         <Button
@@ -42,6 +45,7 @@
             android:text="@string/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleExit"
             />
 
 </LinearLayout>
